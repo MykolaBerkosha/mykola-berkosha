@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <locale.h>
+int main()
+{
+int x,y,r;
+printf("введіть перше число: ");
+scanf("%d",&x);
+
+printf("введіть друге число: ");
+scanf("%d",&y);
+
+printf("введіть третє число: ");
+scanf("%d",&r);
+if ((x>y)&&(x>r))
+{
+printf("%d більше перше число", x);
+ }
+else if ((y>x)&&(y>r))
+{
+  printf("%d більше друге число", y);
+}
+  else if ((r>y)&&(r>x))
+{
+    printf("%d більше третє число", r);
+}
+   
+}
