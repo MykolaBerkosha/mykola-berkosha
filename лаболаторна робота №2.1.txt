@@ -1,18 +1,18 @@
-﻿#include <stdio.h> 
+#include <stdio.h> 
 #include <math.h> 
 
 
 int main()
 {
 	int y,x,z,q,r,e;
-	printf(" x=");
+	printf("Перше число ");
 	scanf("%d",&x);
-	printf("\n y=");
+	printf("\nДруге число ");
 	scanf("%d",&y);
     z=x*y;
     q=fmod(x,y);
     r=y/x;
-    e=floor(r);
+    e=floor(y);
 	printf("\n ціла частина від другого числа""\n%d",e);
 	printf("\n Остача від ділення""\n%d",q);
   printf("\n Добуток чисел""\n%d",z);
