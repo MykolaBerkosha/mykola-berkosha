@@ -3,16 +3,16 @@
 
 int main()
 {
-int x,y,z,b;
-printf(" x=");
-scanf("%d",&x);
-printf(" y=");
-scanf("%d",&y);
-printf("z=");
-scanf("%d",&z);
+float a,y,b,c;
+printf(" a=");
+scanf("%f",&a);
+printf(" b=");
+scanf("%f",&b);
+printf("c=");
+scanf("%f",&c);
+ y=(a-b)/(2*b+c)+1/a;
 
-b=1+cos(y-2)/(pow(x,4))/2+(sin (z)*sin (z));
 
-printf("\n значення функці %d ",b);
+printf("\n значення функці %f ",y);
        return 0;
 }
